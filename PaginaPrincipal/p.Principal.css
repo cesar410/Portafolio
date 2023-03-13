@@ -43,6 +43,7 @@ body{
 }
 
 
+
 #BTN3:hover{
     background-color: yellow;
     color: black;
@@ -86,6 +87,7 @@ body{
 
 #ex{
     color: rgb(224, 224, 0);
+    
 }
 
 h5{
@@ -168,4 +170,5 @@ footer p{
     font-size: 1.2rem; 
     margin-bottom: 1.5rem;
 }
+
 
