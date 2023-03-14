@@ -2,7 +2,6 @@ body{
     background-color: black;
     color: #fff;
     
-    
                 
 }
 
@@ -15,6 +14,7 @@ div{
     width: 99%;
     height: 99%;
     position: relative;
+    
 }
 
 video{
@@ -47,6 +47,7 @@ h1{
   margin-left: -100px;
   top: 55%;
   margin-top: -100px;
+  
 }
 
 .hex-brick {
@@ -81,6 +82,7 @@ h1{
   position: absolute;
   top: 50%;
   left: 50%;
+  
 }
 
 .center-gel {
@@ -92,11 +94,13 @@ h1{
   -webkit-animation-name: pulse00;
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
+  
 }
 
 .c1 {
   margin-left: -47px;
   margin-top: -15px;
+  
 }
 
 .c2 {
@@ -288,6 +292,7 @@ h1{
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: .2s;
+  
 }
 
 .r2 {
@@ -321,6 +326,7 @@ h1{
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: .2s;
+  
 }
 
 .r2 > .hex-brick {
@@ -332,6 +338,7 @@ h1{
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: .4s;
+  
 }
 
 .r3 > .hex-brick {
@@ -349,6 +356,7 @@ h1{
   0% {
     -webkit-transform: scale(1);
     transform: scale(1);
+    
   }
 
   50% {
@@ -364,15 +372,24 @@ h1{
 
 @keyframes fade00 {
   0% {
-    background: #252525;
+    background: #fdfdfd;
+  }
+  
+  25% {
+    background: #fd0404;
+  }
+  
+  50% {
+    background: #f4f800;
   }
 
-  50% {
-    background: #000000;
+  75% {
+    background: #3205fc;
   }
 
   100% {
-    background: #353535;
+    background: #020202;
   }
 }
+
 
